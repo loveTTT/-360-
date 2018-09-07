@@ -1,0 +1,99 @@
+@keyframes move01 {
+    from{
+        transform: translate(-543px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes move02 {
+    from{
+        transform: translate(-693px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes move03 {
+    from{
+        transform: translate(-843px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes move04 {
+    from{
+        transform: translate(-993px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes move05 {
+    from{
+        transform: translate(-1143px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes ravove{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(1080deg);
+    }
+}
+#banner #intro_1{
+    animation:move01 3s linear;
+
+}
+#banner #intro_2{
+    animation:move02 3.82s linear;
+
+}
+#banner #intro_3{
+    animation:move03 4.65s linear;
+
+}
+#banner #intro_4{
+    animation:move04 5.48s linear;
+
+}
+#banner #intro_5{
+    animation:move05 6.31s linear;
+
+}
+#intro_5 i{
+    animation: ravove 6.31s linear;
+}
+
+/*********icon图标*************/
+@keyframes jump {
+    from{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    25%{
+        transform: rotate(10deg);
+        opacity: 0.5;
+    }
+    50%{
+        transform: rotate(-10deg);
+        opacity: 1;
+    }
+    75%{
+        transform: rotate(10deg);
+        opacity: 0.5;
+    }
+    to{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+
+#d5 ul li i:hover{
+   animation:jump 0.3s linear;
+}

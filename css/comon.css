@@ -1,0 +1,95 @@
+@charset "utf-8";
+/*总体设置*/
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-size:14px;
+    color:#666;
+    font-family:"微软雅黑";
+}
+ul,li {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+/*布局定义*/
+
+header, #banner {
+    width: 1600px;
+}
+header{
+    height: 50px;
+}
+#banner {
+    height:550px;
+}
+
+
+
+/*页头部分*/
+header {
+    border:0;
+    border-bottom:1px solid #e0e0e0;
+}
+div.content {
+    width:1020px;
+    margin:0 auto;
+}
+div .logo  {
+    width:152px;
+    height:27px;
+    background:url(../img/iconlist_1.png) no-repeat -868px -100px;
+    margin-top:10px;
+    float:left;
+}
+header ul {
+    float:right;
+}
+header ul li {
+    float:left;
+    position:relative;
+}
+header ul li a {
+    padding:0 15px;
+    height:47px;
+    line-height:47px;
+    display:block;
+    color:#5c5c5c;
+    text-decoration:none;
+}
+header ul li a:hover, header ul li .active {
+    border-bottom:3px solid #f1595f;
+}
+a.android,a.ios{
+    background:url(../img/iconlist_2.png) no-repeat;
+    background-position: -430px -671px;
+    width:66px;
+    height:26px;
+    display:block;
+    margin-top:12px;
+}
+a.ios {
+    background-position: -1655px -536px;
+}
+.android:hover,a.ios:hover{
+   border-bottom: none;
+}
+
+/*弹出框*/
+#android_code {
+    width: 180px;
+    height: 210px;
+    background: url(../img/iconlist_2.png) no-repeat -1654px -297px;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    z-index: 100;
+    display: none;
+}
+.android:hover #android_code{
+    display: block;
+}
+

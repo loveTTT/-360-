@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#d6{
+    width: 1600px;
+    height: 276px;
+    background-color:#363636;
+    border: 1px solid white;
+}
+.b1{
+    width: 90px;
+    height: 80px;
+    margin-left: 433px;
+    margin-top: 66px;
+}
+.b1 p{
+    text-align: left;
+    padding-left: 0;
+    padding-top: 15px;
+}
+.b2{
+    width: 120px;
+    height: 100px;
+    margin-left: 589px;
+    margin-top: -80px;
+}
+.b2 p{
+    text-align: left;
+    padding-left: 0;
+    padding-top: 15px;
+}
+.b3{
+    width: 99px;
+    height: 99px;
+    background: url("../img/weibo.png")no-repeat;
+    margin-left: 737px;
+    margin-top: -105px;
+}
+.b3 p{
+    text-align: left;
+    padding-left: 0;
+    padding-top: 15px;
+    width: 100px;
+    height: 39px;
+    margin-left: 115px;
+    margin-top: 0px;
+}
+.b4{
+    width: 99px;
+    height: 99px;
+    background: url("../img/weichat.png")no-repeat;
+    margin-left: 950px;
+    margin-top: -100px;
+}
+.b4 p{
+    text-align: left;
+    padding-left: 0;
+    padding-top: 15px;
+    width: 100px;
+    height: 39px;
+    margin-left: 115px;
+    margin-top: 0px;
+}
+.b5 p{
+    width: 423px;
+    height: 3px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+#d8{
+    width: 1600px;;
+    height: 1290px;
+    background: white;
+}
+.Z1{
+    background: url("../img/zhichijixing.png")no-repeat 40px;
+    width: 1030px;
+    height: 118px;
+    margin-left: 283px;
+    border-bottom: 1px solid black;
+}
+.Z2{
+    width: 1019px;
+    height: 351px;
+    margin-left: 283px;
+}
+.Z2 p{
+    width: 906px;
+    height: 26px;
+    margin-left: 56px;
+    margin-top: 36px;
+    text-align: center;
+}
+.ji{
+    width: 942px;
+    height: 195px;
+    margin-left: 35px;
+    margin-top: 56px ;
+}
+.ji_1{
+     width: 170px;
+     height: 76px;
+     float: left;
+     background: url("../img/APPLE.png")no-repeat;
+ }
+.ji_2{
+    width: 170px;
+    height: 76px;
+    margin-left: 20px;
+    float: left;
+    background: url("../img/OPPO.png")no-repeat;
+}
+.ji_3{
+    width: 170px;
+    height: 76px;
+    margin-left: 20px;
+    float: left;
+    background: url("../img/HTC.png")no-repeat;
+}
+.ji_4{
+    width: 170px;
+    height: 76px;
+    margin-left: 20px;
+    float: left;
+    background: url("../img/SAMSUNG.png")no-repeat;
+}
+.ji_5{
+    width: 172px;
+    height: 76px;
+    border: 1px solid red;
+    margin-left: 20px;
+    float: left;
+    background: url("../img/huawei.png")no-repeat;
+}
+.ji_6{
+    width: 170px;
+    height: 76px;
+    float: left;
+    margin-top: 39px;
+    background: url("../img/SONY.png")no-repeat;
+}
+.ji_7{
+    width: 170px;
+    height: 76px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 39px;
+    background: url("../img/LG.png")no-repeat;
+}
+.ji_8{
+    width: 170px;
+    height: 76px;
+    margin-left: 20px;
+    margin-top: 39px;
+    float: left;
+    background: url("../img/meizu.png")no-repeat;
+}
+.ji_9{
+    width: 170px;
+    height: 76px;
+    margin-left: 20px;
+    margin-top: 39px;
+    float: left;
+    background: url("../img/xiaomi.png")no-repeat;
+}
+.ji_10{
+    width: 172px;
+    height: 76px;
+    margin-left: 20px;
+    margin-top: 39px;
+    float: left;
+    background: url("../img/weiwandaixu.png")no-repeat;
+}
+.ping{
+    width: 71px;
+    height: 43px;
+    margin-left: 283px;
+    margin-top: 0px;
+}
+
+.ping_1{
+    width: 1023px;
+    height: 269px;
+    margin-left: 283px;
+}
+.ping_1 table {
+
+    border: 1px solid #e2e2e2;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+.ping_1 table tr {
+    height: 55px;
+    text-align: left;
+    border: 1px solid #e2e2e2;
+}
+.ping_1 table th{
+    width: 515px;
+    background-color: #a8a8a8;
+    color: #ffffff;
+}
+.ping_1 table td {
+    width: 515px;
+}
+.xiao{
+    width: 71px;
+    height: 43px;
+    margin-left: 283px;
+    margin-top: 30px;
+}
+
+.xiao_1{
+    width: 1023px;
+    height: 269px;
+    margin-left: 283px;
+}
+.xiao_1 table {
+
+    border: 1px solid #e2e2e2;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+.xiao_1 table tr {
+    height: 55px;
+    text-align: left;
+    border: 1px solid #e2e2e2;
+}
+.xiao_1 table th{
+    width: 515px;
+    background-color: #a8a8a8;
+    color: #ffffff;
+}
+.xiao_1 table td {
+    width: 515px;
+}
+.X{
+    width: 1023px;
+    height: 116px;
+    margin-left: 283px;
+}
+.X p{
+   text-align: center;
+    line-height: 110px;
+}
